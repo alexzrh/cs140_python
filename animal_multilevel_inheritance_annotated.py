@@ -11,8 +11,9 @@ class Animal:
     # initialize instance attributes - not all animals have legs and tails,
     #     so it depends on the specific (instance) of Animal
     def __init__(self, legs, tail):
-        # the double_underscore (could be single underscore) makes 
-        # the attribute private
+        # the double_underscore (could be single underscore) indicates 
+        # the attribute is private. Python doesn't enforce 
+        # public/protected like c++/java.
         self.__legs = legs
         self.__tail = tail
         
