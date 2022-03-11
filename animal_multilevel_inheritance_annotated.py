@@ -249,7 +249,7 @@ if __name__ == "__main__":
     strep = Bacterium()
     # displays the .multicellular class attribute in Bacterium,
     # which is different from Animal and why it is in a different class
-    print(f"Steptococcus is multicellular: {strep.multicellular}")
+    print(f"Streptococcus is multicellular: {strep.multicellular}")
 
     ''' side note: if we wanted, we could create a higher level class called
         Organism and have Animal and Bacerium inherit from Organism. For example, 
